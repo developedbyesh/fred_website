@@ -1,0 +1,150 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+#intro {
+  background-image: url("../images/Screen\ Shot\ 2021-08-17\ at\ 4.03.11\ pm.png");
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: #a1c5bc;
+}
+.navbar {
+  height: 127px;
+}
+li {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 25px 0 25px;
+}
+.green-label {
+  min-height: 62px;
+  background-color: #a1c5bc;
+  border: 1px solid #707070;
+}
+h1 {
+  font: normal normal bold 61px/60px Roboto;
+}
+h2 {
+  font: normal normal 800 45px/47px Roboto;
+  text-transform: uppercase;
+}
+h3 {
+  color: white;
+  font: normal normal bold 35px/40px Roboto;
+  letter-spacing: 0.35px;
+}
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #282828;
+}
+.btn {
+  height: 77px;
+  border-radius: 34px;
+  background-color: #ee7202;
+  padding: 20px;
+  color: white;
+  font: normal normal bold 32px/32px Roboto;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* font-size: 32px;
+    font-weight: bold; */
+}
+#share {
+  background-color: #eaeaea;
+  /* height: 1299px; */
+}
+#share .share-circle {
+  /* background-color: #f47920; */
+  width: 532px;
+  height: 532px;
+  border-radius: 50%;
+  border: 2px solid #282828;
+  background: #f47920 0% 0% no-repeat padding-box;
+  /* position: relative;
+  right: 100px; */
+}
+.share-circle .share-text {
+  margin-top: 150px;
+  margin-left: 30px;
+}
+.share-p1 {
+  font: normal normal bold 21px/27px Roboto;
+  letter-spacing: 0.21px;
+  color: #282828;
+}
+.share-p2 {
+  font: normal normal bold 23px/27px Roboto;
+  letter-spacing: 0.23px;
+  color: #282828;
+}
+.share-heading {
+  font: normal normal bold 38px/42px Roboto;
+  letter-spacing: 0.38px;
+  text-transform: uppercase;
+}
+.share-heading .share-orange {
+  color: #ee7202;
+}
+#about {
+  background-color: #282828;
+  /* height: 1299px; */
+}
+.about-img {
+  /* position: absolute; */
+  /* left: 400px;
+  top: 300px; */
+  /* top: 1450px;
+  left: 1200px;
+  width: 1009px;
+  height: 1009px; */
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.about-text {
+  font: normal normal normal 22px/32px Roboto;
+  padding-top: 10px;
+}
+.footer-text {
+  font: normal normal normal 17px/20px Montserrat;
+  letter-spacing: 0.17px;
+}
+.f-icon {
+  font-size: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #intro {
+    background-image: url("../images/Screen\ Shot\ 2021-08-17\ at\ 4.03.11\ pm.png");
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+  }
+  .navbar .nav-logo {
+    width: 280px;
+  }
+}
+
+@media (min-width: 992px) {
+    #intro {
+      height: 100vh;
+    }
+    #share .share-circle {
+        position: static;
+        right: 0;
+      }
+  }
